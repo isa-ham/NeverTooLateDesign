@@ -1,0 +1,14 @@
+.hero {
+  background-image: url("../pictures/lilac.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.txt {
+  background-color: rgba(226,226,226,.85);
+  margin: 30%;
+  padding: 3%;
+  text-align: center;
+}
