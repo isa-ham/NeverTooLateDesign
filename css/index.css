@@ -5,7 +5,7 @@
 }
 
 .text {
-  background-color: rgba(226,226,226,.85);
+  background-color: rgba(226,226,226,.75);
   margin: 25%;
   padding: 3%;
   text-align: center;
@@ -23,8 +23,4 @@
 .offset {
   background-color: rgba(226,226,226,.25);
   padding: 3%;
-}
-
-.offset a:hover {
-  color: #DDBDD5;
 }

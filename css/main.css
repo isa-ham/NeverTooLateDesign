@@ -1,45 +1,35 @@
 * {
   font-family: 'Josefin Slab', serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #3E4E50;
 }
 
 a {
-  color: #3E4E50;
+  color: #58A4B0;
 }
 
 a:hover {
-  color: #CDE7B0;
+  color: #49306B;
+  text-decoration: none;
 }
 
 
 h3 {
   text-shadow: 2px 2px #FFF;
+  color: #49306B;
 }
 
-.navbar {
-  background-color: rgb(226,226,226);
-}
-
-.navbar-brand {
-  font-family: 'Shadows Into Light', cursive;
+.navbar-brand img {
+  width: 30%;
 }
 
 .footer {
-  background-color: #7F675B;
+  background-color: #65524D;
   padding: 3%;
 }
 
 .footer p{
-  color: #CDE7B0;
-}
-
-.footer a {
-  color: #DDBDD5;
-}
-
-.footer a:hover {
-  color: #CDE7B0;
+  color: #FFF;
 }
 
 .footer img {
