@@ -14,7 +14,9 @@ a:hover {
 }
 
 
-h3 {
+h1, h2, h3 {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2em;
   text-shadow: 2px 2px #FFF;
   color: #49306B;
 }
