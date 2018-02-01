@@ -5,7 +5,10 @@
 }
 
 .text {
-
+  background-color: rgba(226,226,226,.75);
+  margin: 25%;
+  padding: 3%;
+  text-align: center;
 }
 
 .about {
