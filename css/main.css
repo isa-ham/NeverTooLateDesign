@@ -22,7 +22,12 @@ h1, h2, h3 {
 }
 
 .navbar-brand img {
-  width: 30%;
+  width: 20%;
+  border-radius: 30%;
+}
+
+.navbar-toggler {
+  width: 20%;
 }
 
 .footer {
