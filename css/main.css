@@ -31,6 +31,18 @@ h1, h2, h3 {
   font-family: 'Shadows Into Light', cursive;
 }
 
+.text {
+  background-color: rgba(226,226,226,.75);
+  margin: 25%;
+  padding: 3%;
+  text-align: center;
+}
+
+.offset {
+  background-color: rgba(226,226,226,.25);
+  padding: 3%;
+}
+
 .footer {
   background-color: #65524D;
   padding: 3%;

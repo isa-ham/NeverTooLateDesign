@@ -4,13 +4,6 @@
   width: 100%;
 }
 
-.text {
-  background-color: rgba(226,226,226,.75);
-  margin: 25%;
-  padding: 3%;
-  text-align: center;
-}
-
 .about {
   margin: 2%;
 }
@@ -18,9 +11,4 @@
 .about img{
   width: 50%;
   margin: 2%;
-}
-
-.offset {
-  background-color: rgba(226,226,226,.25);
-  padding: 3%;
 }
