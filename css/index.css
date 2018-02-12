@@ -1,5 +1,5 @@
 .hero {
-  background-image: url('../pictures/clocks.jpeg');
+  background-image: url('../pictures/background.jpg');
   background-size: cover;
   width: 100%;
 }
@@ -11,4 +11,9 @@
 .about img{
   width: 50%;
   margin: 2%;
+}
+
+.tab-content {
+  margin: auto;
+  padding: 3%;
 }
