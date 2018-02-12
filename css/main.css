@@ -1,23 +1,36 @@
 /* Main CSS */
 * {
   font-family: 'Josefin Slab', serif;
-  color: #407076;
+  color: #36213E;
   font-size: 18px;
 }
 
 a {
-  color: #354F52;
+  color: #8D3B72;
   font-size: 1.5em;
 }
 
 a:hover {
-  color: #698996;
+  color: #006989;
 }
 
 .hero {
   background-image: url('../pictures/background.jpg');
   background-size: cover;
   width: 100%;
+  padding-top: 10%;
+  min-height: 833px;
+  -webkit-clip-path: polygon(0 0, 100% 2%, 100% 98%, 0 95%);
+  clip-path: polygon(0 0, 100% 2%, 100% 98%, 0 95%);
+}
+.bg-element {
+  background-color: #DDF8E8;
+  height: 1250px;
+  width: 100%;
+  -webkit-clip-path: polygon(0 10%, 100% 1%, 100% 88%, 0 98%);
+  clip-path: polygon(0 10%, 100% 1%, 100% 88%, 0 98%);
+  z-index: -1;
+  position: absolute;
 }
 
 .tab-content {
@@ -34,17 +47,16 @@ h1 {
 .text {
   background-color: rgba(226,226,226,.85);
   margin: 5%;
-  min-height: 600px;
 }
 
-.hover {
+.img-h {
   max-width: 50%;
   box-shadow: 2px 4px 8px rgba(0, 0, 0, .75);
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
 
-.hover:hover {
+.img-h:hover {
   box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 
